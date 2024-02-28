@@ -1,0 +1,49 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cecece;
+}
+
+header {
+    background-color: #0B0C10;
+    color: #66fcf1;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #66fcf1;
+    text-decoration: none;
+}
+
+
+section {
+    background-color: #ffffffad;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #0B0C10;
+    color: #66fcf1;
+    text-align: center;
+    padding: 10px;
+}
